@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    height: 50px;
+    background-color: #080043;
+    width: 1280px;
+}
+.fa-clock{
+    color: #fff;
+    font-size: 30px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+h3{
+    text-align: left;
+    font-size: 15px;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 415px;
+    background-color: #40baed;
+}
+.timer-display {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.time-block {
+    background-color: #080043;
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 40px;
+    box-shadow: #000;
+}
+
+.time {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+
+.label {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+input {
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.set-timer {
+    background-color: #000;
+    color: #fff;
+}
+
+.start-resume {
+    background-color: #aa57de;
+    color: #fff;
+}
+
+.pause {
+    background-color: #1976D2;
+    color: #fff;
+}
+
+.reset {
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    background-color: #080043;
+}
+
+.instructions ul {
+    
+    padding: 0px;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+}
